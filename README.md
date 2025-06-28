@@ -6,23 +6,24 @@ RBAC-Based Node.js API (User ID Authentication Only)
 
 A simple role-based access control (RBAC) API built using Node.js and Express, without JWT.
 Users are authenticated via 'user_id' passed in the request headers.
-
 Project Structure:
 ------------------
-.
-├── controllers/
-│   ├── authController.js
-│   └── dashboardController.js
-├── middlewares/
-│   ├── authentication.js
-│   └── authorization.js
-├── routes/
-│   ├── authRoutes.js
-│   └── dashboardRoutes.js
-├── data.js
-├── app.js
-├── package.json
-└── README.txt
+
+
+├── controllers/<br>
+│   ├── authController.js<br>
+│   └── dashboardController.js<br>
+├── middlewares/<br>
+│   ├── authentication.js<br>
+│   └── authorization.js<br>
+├── routes/<br>
+│   ├── authRoutes.js<br>
+│   └── dashboardRoutes.js<br>
+├── data.js<br>
+├── app.js<br>
+├── package.json<br>
+└── README.txt<br>
+
 
 Features:
 ---------
